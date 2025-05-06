@@ -10,7 +10,7 @@ class mahasiswa
 
 };
 
-void setName(mahasiswa &a, string b)
+void setNama(mahasiswa &a, string b)
 {
     a.nama = b;
     cout << a.nama;
@@ -19,6 +19,6 @@ void setName(mahasiswa &a, string b)
 int main()
 {
     mahasiswa joko;
-    setName(joko,"Kairi Kumar");
+    setNama(joko,"Kairi Kumar");
     return 0;
 }
